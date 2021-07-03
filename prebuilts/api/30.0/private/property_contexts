@@ -101,9 +101,6 @@ sys.trace.              u:object_r:system_trace_prop:s0
 # Fastbootd protocol control property
 fastbootd.protocol    u:object_r:fastbootd_protocol_prop:s0 exact enum usb tcp
 
-# Dark bootanimation
-ro.boot.theme           u:object_r:misc_writer_prop:s0
-
 # adbd protoctl configuration property
 service.adb.tcp.port    u:object_r:adbd_config_prop:s0 exact int
 
