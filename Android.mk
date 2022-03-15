@@ -1501,6 +1501,8 @@ version_under_treble_tests := 29.0
 include $(LOCAL_PATH)/treble_sepolicy_tests_for_release.mk
 version_under_treble_tests := 30.0
 include $(LOCAL_PATH)/treble_sepolicy_tests_for_release.mk
+version_under_treble_tests := 31.0
+include $(LOCAL_PATH)/treble_sepolicy_tests_for_release.mk
 endif  # PRODUCT_SEPOLICY_SPLIT
 
 version_under_treble_tests := 26.0
@@ -1512,6 +1514,8 @@ include $(LOCAL_PATH)/compat.mk
 version_under_treble_tests := 29.0
 include $(LOCAL_PATH)/compat.mk
 version_under_treble_tests := 30.0
+include $(LOCAL_PATH)/compat.mk
+version_under_treble_tests := 31.0
 include $(LOCAL_PATH)/compat.mk
 
 base_plat_policy.conf :=
